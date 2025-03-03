@@ -1,0 +1,108 @@
+body {
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#weather-container {
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rebeccapurple;
+    backdrop-filter: blur;
+    border: 1px solid white;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    margin: 8px;
+    font-size: 30px;
+}
+
+label{
+    color: aqua;
+    margin: 8px;
+}
+
+p{
+    color: aqua;
+    margin: 8px;
+}
+
+input {
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+button {
+    background: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: skyblue;
+}
+
+#temp-div p {
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+#weather-info {
+    font-size: 20px;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+    margin:  auto;
+    margin-bottom: 0;
+    display: none;
+}
+
+#hourly-forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+.hourly-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#hourly-heading {
+    color: white;
+    margin-top: 10px;
+}
